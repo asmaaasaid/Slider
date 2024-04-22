@@ -1,0 +1,52 @@
+.layer
+{
+    position: absolute;
+    /* left: 40px;
+    right: 40px;
+    bottom: 20px; */
+
+     bottom: 20px;
+    width: 70%;
+    left: 15%; 
+}
+
+#fixed-layer
+{
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.parent
+{
+    position: relative;
+    width: 40%;
+}
+
+#close-btn
+{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+#right-btn
+{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+#left-btn
+{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
